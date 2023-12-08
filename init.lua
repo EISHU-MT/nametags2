@@ -32,7 +32,7 @@ end
 
 local function IsObjStillAlive(obj)
 	local check = obj:get_hp()
-	local check2 = obj:get_yaw()
+	local check2 = obj:get_yaw() or obj:is_player()
 	if check and check2 then return true end
 	return false
 end
