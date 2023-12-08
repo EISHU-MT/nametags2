@@ -1,5 +1,5 @@
 # Nametags 2
-This allows the entities had special nametags to set Observers, Color and the use of "\n".
+Set to the entities a new type of nametag, based on WayPoints and on Observers List, Color and string style "\n"
 
 ## API
 The API is easy to use:
